@@ -1,6 +1,8 @@
 <h3>Edit recipe:</h3>
 
 <form>
+  <input id="hidden" type="hidden" name="_method" value="patch">
     <input type="text" name="content" value="<%= @recipe.ingredients %>">
   </form>
 </form>
+
